@@ -47,11 +47,15 @@ const W = styled.div`
   background: #ccc;
 `;
 const Filter = styled.div`
-
+overflow:hidden;
 display :flex;
 border-top: 1px solid #ddd;
 border-bottom: 1px solid #ddd;
-
+@media (max-width: 10px) {
+    padding: 12px 18px;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
 
 `;
 const Wrap = styled.div`
