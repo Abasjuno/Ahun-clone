@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
+import Home from './pages/Home';
+import Events from './pages/Events';
+import EventOrganizer from './pages/EventOrganizer';
+import Blog from './pages/Blog';
+import Privacy from './pages/Privacy';
+import Header from './components/header/Header';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Routes>
+          <Route path="/"  element={<Home/>}   />
+          <Route path="/events" element={<Events/>} />
+          <Route path="/evantorganizer" element={<EventOrganizer />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/privacy"  element={<Privacy/>}   />
+        </Routes>
+      </Router>
     </div>
   );
 }
