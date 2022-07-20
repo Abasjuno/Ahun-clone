@@ -3,16 +3,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-p{
-  font-family: "VisbyRoundCF";
- }
-h1,h2,span{
-  font-family: "VisbyRoundCF-ExtraBold";
- }
-.title{
-  color:antiquewhite;
-  margin-top:-300px;
-}
-.desc{
-  color:antiquewhite;
-}

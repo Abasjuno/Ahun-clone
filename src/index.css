@@ -12,14 +12,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-@font-face {
-  font-family: "VisbyRoundCF";
-  src: local("VisbyRoundCF-Regular"),
-   url("./fonts/Visby-Round-www.Dfonts.org/OTF/VisbyRoundCF-Regular.otf") format("truetype");
-  }
-  @font-face {
-    font-family: "VisbyRoundCF-ExtraBold";
-    src: local("VisbyRoundCF-ExtraBold"),
-     url("./fonts/Visby-Round-www.Dfonts.org/OTF/VisbyRoundCF-ExtraBold.otf") format("truetype");
-     font-weight:800;
-    }
