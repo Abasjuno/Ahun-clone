@@ -289,6 +289,9 @@ const Button = styled.button`
 `
 const Plans = styled.div`
 display:flex;
+@media (max-width:1000px){
+    flex-direction:column;
+    }
 
   
 `

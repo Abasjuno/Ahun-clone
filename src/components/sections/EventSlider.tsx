@@ -14,8 +14,8 @@ function EventSlider() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h1  className='title'>First slide label</h1>
-            <p className='desc'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h1 style={{color: '#fff',marginTop:"-300px"}}>First slide label</h1>
+            <p style={{color: '#fff'}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -26,8 +26,8 @@ function EventSlider() {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h1 className='title'>Second slide label</h1>
-            <p className='desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h1 style={{color: '#fff',marginTop:"-300px"}}>Second slide label</h1>
+            <p style={{color: '#fff'}} >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -38,8 +38,8 @@ function EventSlider() {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <h1 className='title'>Third slide label</h1>
-            <p className='desc'>
+            <h1 style={{color: '#fff',marginTop:"-300px"}}>Third slide label</h1>
+            <p style={{color: '#fff'}} >
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
           </Carousel.Caption>
@@ -52,8 +52,8 @@ function EventSlider() {
             alt="Third slide"
             />
           <Carousel.Caption>
-            <h1 className='title'>Third slide label</h1>
-            <p className='desc'>
+            <h1 style={{color: '#fff',marginTop:"-300px"}}>Third slide label</h1>
+            <p style={{color: '#fff'}} >
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
           </Carousel.Caption>
@@ -67,10 +67,10 @@ function EventSlider() {
 export default EventSlider;
 const Container = styled.div`
   position:relative;
-  height:90vh;
-  width:100vw;
-  img{
-     height:90vh;
+  
+    img{
+    width:75%;
+height:90vh;
 } 
 &::before{
   content:"";

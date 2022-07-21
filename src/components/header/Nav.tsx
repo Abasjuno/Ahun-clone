@@ -17,7 +17,7 @@ function Nav() {
                 <Link to="/events"> Evants</Link>
             </NavItem>
             <NavItem>
-                <Link to="/evantorganizer"> Evant Organizer</Link>
+                <Link to="/eventorganizer"> Evant Organizer</Link>
             </NavItem>
             <NavItem>
                 <Link to="/blog"> Blog</Link>

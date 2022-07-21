@@ -30,25 +30,25 @@ function Hamberger() {
             <Link to="/"> Home</Link>
           </NavItem>
           <NavItem><MdEvent/>
-            <Link to="/"> Evants</Link>
+            <Link to="/events"> Evants</Link>
           </NavItem>
           <NavItem><MdEvent/>
-            <Link to="/events"> Evant Organizer</Link>
+            <Link to="/eventorganizer"> Evant Organizer</Link>
           </NavItem>
           <NavItem><MdEvent/>
-            <Link to="/"> Blog</Link>
+            <Link to="/blog"> Blog</Link>
         </NavItem>   
           <NavItem><RiGitRepositoryPrivateLine/>
-            <Link to="/"> Privacy</Link>
+            <Link to="/privacy"> Privacy</Link>
           </NavItem>
           <NavItem><FaMobileAlt/>
-            <Link to="/"> Terms of use</Link>
+            <Link to="/privacy"> Terms of use</Link>
           </NavItem>
           <NavItem><MdPeopleOutline/>
-            <Link to="/"> Community Guidelines</Link>
+            <Link to="/privacy"> Community Guidelines</Link>
           </NavItem>
           <NavItem><MdOutlineCopyright/>
-            <Link to="/"> Copyright Policy</Link>
+            <Link to="/privacy"> Copyright Policy</Link>
           </NavItem>
         </NAV>
       )}

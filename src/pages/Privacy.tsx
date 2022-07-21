@@ -48,6 +48,11 @@ p{
   font-size:16px;
 margin-top:10px;
 }
+@media (max-width:1000px){
+  margin: 50px 50px ;
+  padding:40px 20px;
+
+    }
 `
 const W = styled.div`
 height:15vh;

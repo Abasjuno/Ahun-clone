@@ -40,6 +40,6 @@ const Wrap = styled.div`
 `;
 const ImgWrap = styled.div``;
 const Img = styled.img`
-  color: #fff;
+  color: #666;
   width: 80px;
 `;

@@ -94,6 +94,7 @@ const Title = styled.div`
     justify-content:center;
     align-items:center;
    text-align:center;
+  padding-left: 0;
     }
 `;
 const ImgWrap = styled.div`

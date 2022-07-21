@@ -25,13 +25,12 @@ const Logo = styled.img`
 `
 const NavContainer = styled.div`
     display:flex;
+    width:100vw;
     align-items:center;
     justify-content:space-around;
     background:transparent;
     padding:25px 0 ;
-    position:sticky;
-    width:1
-    nav{
+     nav{
         display:none;
         @media (max-width: 765px) {
       display: block;
